@@ -3,7 +3,7 @@
   if(num_1 % num_2 == 0) 
     Console.WriteLine("Yes");
   else 
-    Console.WriteLine($"No {num_1 % num_2}");
+    Console.WriteLine("No");
   
 }
-multiplicity(35, 5);
+multiplicity(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
